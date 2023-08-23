@@ -8,6 +8,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.tarykota.avataradventures.AvatarAdventuresMod;
+import net.tarykota.avataradventures.block.ModBlocks;
 
 public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -20,6 +21,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.UNOBTAINIUM.get());
                         pOutput.accept(ModItems.UNOBTAINIUM_SHEET.get());
 
+                        pOutput.accept(ModBlocks.UNOBTAINIUM_ORE.get());
 
                     })
                     .build());
