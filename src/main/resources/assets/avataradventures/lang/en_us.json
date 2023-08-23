@@ -1,4 +1,6 @@
 {
   "item.avataradventures.unobtainium": "Unobtainium Chunk",
-  "item.avataradventures.unobtainium_sheet": "Unobtainium Sheet"
+  "item.avataradventures.unobtainium_sheet": "Unobtainium Sheet",
+
+  "creativetab.avatar_tab": "Avatar Adventures Tab"
 }

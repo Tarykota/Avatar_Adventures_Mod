@@ -15,6 +15,7 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.tarykota.avataradventures.item.ModCreativeModeTabs;
 import net.tarykota.avataradventures.item.ModItems;
 import org.slf4j.Logger;
 
@@ -26,6 +27,8 @@ public class AvatarAdventuresMod {
 
     public AvatarAdventuresMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
 
