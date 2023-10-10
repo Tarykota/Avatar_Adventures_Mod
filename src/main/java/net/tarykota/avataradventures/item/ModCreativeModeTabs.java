@@ -20,6 +20,7 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.UNOBTAINIUM.get());
                         pOutput.accept(ModItems.UNOBTAINIUM_SHEET.get());
+                        pOutput.accept(ModItems.BANSHEE_SADDLE.get());
 
                         pOutput.accept(ModBlocks.UNOBTAINIUM_ORE.get());
 

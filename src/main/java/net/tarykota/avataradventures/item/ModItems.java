@@ -15,6 +15,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> UNOBTAINIUM_SHEET = ITEMS.register("unobtainium_sheet",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BANSHEE_SADDLE = ITEMS.register("banshee_saddle",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
