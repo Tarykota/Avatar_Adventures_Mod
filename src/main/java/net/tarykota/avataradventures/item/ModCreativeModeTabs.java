@@ -22,6 +22,10 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.UNOBTAINIUM_SHEET.get());
                         pOutput.accept(ModItems.BANSHEE_SADDLE.get());
 
+                        pOutput.accept(ModItems.TEYLU.get());
+                        pOutput.accept(ModItems.COOKED_TEYLU.get());
+                        pOutput.accept(ModItems.GLOW_WORM.get());
+
                         pOutput.accept(ModBlocks.UNOBTAINIUM_ORE.get());
 
                     })

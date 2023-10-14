@@ -18,6 +18,13 @@ public class ModItems {
     public static final RegistryObject<Item> BANSHEE_SADDLE = ITEMS.register("banshee_saddle",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> TEYLU = ITEMS.register("teylu",
+            () -> new Item(new Item.Properties().food(ModFoods.TEYLU)));
+    public static final RegistryObject<Item> COOKED_TEYLU = ITEMS.register("cooked_teylu",
+            () -> new Item(new Item.Properties().food(ModFoods.COOKED_TEYLU)));
+    public static final RegistryObject<Item> GLOW_WORM = ITEMS.register("glow_worm",
+            () -> new Item(new Item.Properties().food(ModFoods.GLOW_WORM)));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
