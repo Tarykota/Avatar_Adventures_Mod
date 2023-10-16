@@ -22,6 +22,10 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoods.TEYLU)));
     public static final RegistryObject<Item> COOKED_TEYLU = ITEMS.register("cooked_teylu",
             () -> new Item(new Item.Properties().food(ModFoods.COOKED_TEYLU)));
+    public static final RegistryObject<Item> RAW_BANSHEE = ITEMS.register("raw_banshee",
+            () -> new Item(new Item.Properties().food(ModFoods.RAW_BANSHEE)));
+    public static final RegistryObject<Item> COOKED_BANSHEE = ITEMS.register("cooked_banshee",
+            () -> new Item(new Item.Properties().food(ModFoods.COOKED_BANSHEE)));
     public static final RegistryObject<Item> GLOW_WORM = ITEMS.register("glow_worm",
             () -> new Item(new Item.Properties().food(ModFoods.GLOW_WORM)));
 
