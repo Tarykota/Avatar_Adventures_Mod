@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "avataradventures:unobtainium"
+    },
+    "B": {
+      "item": "minecraft:bone"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "V": {
+      "item": "minecraft:vine"
+    }
+  },
+  "pattern": [
+    "VLV",
+    "LBL",
+    "# #"
+  ],
+  "result": {
+    "item": "avataradventures:banshee_saddle"
+  },
+  "show_notification": true
+}
