@@ -18,7 +18,9 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.UNOBTAINIUM.get()))
                     .title(Component.translatable("creativetab.avatar_tab"))
                     .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(ModBlocks.UNOBTAINIUM_ORE.get());
                         pOutput.accept(ModItems.UNOBTAINIUM.get());
+                        pOutput.accept(ModItems.UNOBTAINIUM_INGOT.get());
                         pOutput.accept(ModItems.UNOBTAINIUM_SHEET.get());
                         pOutput.accept(ModItems.BANSHEE_SADDLE.get());
 
@@ -28,7 +30,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.COOKED_BANSHEE.get());
                         pOutput.accept(ModItems.GLOW_WORM.get());
 
-                        pOutput.accept(ModBlocks.UNOBTAINIUM_ORE.get());
+
 
                     })
                     .build());

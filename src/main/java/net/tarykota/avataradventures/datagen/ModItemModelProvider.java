@@ -10,14 +10,15 @@ import net.minecraftforge.registries.RegistryObject;
 import net.tarykota.avataradventures.AvatarAdventuresMod;
 import net.tarykota.avataradventures.item.ModItems;
 
-public class ModItemModeProvider extends ItemModelProvider {
-    public ModItemModeProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
+public class ModItemModelProvider extends ItemModelProvider {
+    public ModItemModelProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
         super(output, AvatarAdventuresMod.MOD_ID, existingFileHelper);
     }
 
     @Override
     protected void registerModels() {
         simpleItem(ModItems.UNOBTAINIUM);
+        simpleItem(ModItems.UNOBTAINIUM_INGOT);
         simpleItem(ModItems.UNOBTAINIUM_SHEET);
         simpleItem(ModItems.BANSHEE_SADDLE);
 

@@ -1,4 +1,4 @@
-// 1.20.1	2023-11-03T09:20:05.7145746	Item Models: avataradventures
+// 1.20.1	2023-11-03T09:56:53.831349	Item Models: avataradventures
 e85af19736acce8197b13c1c9f0f81895037e3bd assets/avataradventures/models/item/banshee_saddle.json
 d5bdcd38c0f194685044e5725212d5193d44197e assets/avataradventures/models/item/cooked_banshee.json
 aa6e5a66c78a5988688da1e2cb586a59dcadd9b3 assets/avataradventures/models/item/cooked_teylu.json
@@ -6,4 +6,5 @@ aa6e5a66c78a5988688da1e2cb586a59dcadd9b3 assets/avataradventures/models/item/coo
 64bf20635958cfaa9d0dc0e0140966279724ec77 assets/avataradventures/models/item/raw_banshee.json
 35f2d2ec18cd699802a320e3f1b0d3c19efa658c assets/avataradventures/models/item/teylu.json
 1d82cecb9326c796277a843394caa79ac4fcf3ef assets/avataradventures/models/item/unobtainium.json
+482c4e6422a6627bd9dc100f99a6a324cbfe8808 assets/avataradventures/models/item/unobtainium_ingot.json
 2c298b764e4589fd7b7acd39522f9886aaf92912 assets/avataradventures/models/item/unobtainium_sheet.json

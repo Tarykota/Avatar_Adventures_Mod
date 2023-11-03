@@ -13,6 +13,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> UNOBTAINIUM = ITEMS.register("unobtainium",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> UNOBTAINIUM_INGOT = ITEMS.register("unobtainium_ingot",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> UNOBTAINIUM_SHEET = ITEMS.register("unobtainium_sheet",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BANSHEE_SADDLE = ITEMS.register("banshee_saddle",
