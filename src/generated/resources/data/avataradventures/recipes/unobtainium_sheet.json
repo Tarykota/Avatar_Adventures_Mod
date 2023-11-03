@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "avataradventures:unobtainium_ingot"
+    }
+  },
+  "pattern": [
+    "II"
+  ],
+  "result": {
+    "item": "avataradventures:unobtainium_sheet"
+  },
+  "show_notification": true
+}
