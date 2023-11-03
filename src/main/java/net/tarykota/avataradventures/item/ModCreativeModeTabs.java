@@ -19,6 +19,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.avatar_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModBlocks.UNOBTAINIUM_ORE.get());
+
                         pOutput.accept(ModItems.UNOBTAINIUM.get());
                         pOutput.accept(ModItems.UNOBTAINIUM_INGOT.get());
                         pOutput.accept(ModItems.UNOBTAINIUM_SHEET.get());

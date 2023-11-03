@@ -25,8 +25,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> pWriter) {
-        oreSmelting(pWriter, UNOBTAINIUM_SMELTABLES, RecipeCategory.MISC, ModItems.UNOBTAINIUM.get(), 0.7f, 200, "unobtainium");
-        oreBlasting(pWriter, UNOBTAINIUM_SMELTABLES, RecipeCategory.MISC, ModItems.UNOBTAINIUM.get(), 0.7f, 100, "unobtainium");
+        oreSmelting(pWriter, UNOBTAINIUM_SMELTABLES, RecipeCategory.MISC, ModItems.UNOBTAINIUM_INGOT.get(), 0.7f, 200, "unobtainium");
+        oreBlasting(pWriter, UNOBTAINIUM_SMELTABLES, RecipeCategory.MISC, ModItems.UNOBTAINIUM_INGOT.get(), 0.7f, 100, "unobtainium");
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.BANSHEE_SADDLE.get())
                 .pattern("VLV")
@@ -37,6 +37,12 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('B', Items.BONE)
                 .define('#', ModItems.UNOBTAINIUM.get())
                 .unlockedBy(getHasName(ModItems.UNOBTAINIUM.get()), has(ModItems.UNOBTAINIUM.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.UNOBTAINIUM_SHEET.get())
+                .pattern("II")
+                .define('I', ModItems.UNOBTAINIUM_INGOT.get())
+                .unlockedBy(getHasName(ModItems.UNOBTAINIUM_INGOT.get()), has(ModItems.UNOBTAINIUM_INGOT.get()))
                 .save(pWriter);
 
     }
