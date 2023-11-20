@@ -12,6 +12,6 @@ public class ModFoods {
             .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 1200, 2), 1.0F).build();
     public static final FoodProperties RAW_BANSHEE = new FoodProperties.Builder().nutrition(3).saturationMod(0.3F).meat().build();
     public static final FoodProperties COOKED_BANSHEE = new FoodProperties.Builder().nutrition(8).saturationMod(0.8F).meat().build();
-
+    public static final FoodProperties BANANA_FRUIT = (new FoodProperties.Builder()).nutrition(4).saturationMod(0.3F).build();
 
 }

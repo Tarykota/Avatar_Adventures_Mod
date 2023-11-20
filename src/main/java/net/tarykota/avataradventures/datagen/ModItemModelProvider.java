@@ -29,6 +29,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.RAW_BANSHEE);
         simpleItem(ModItems.COOKED_BANSHEE);
         simpleItem(ModItems.GLOW_WORM);
+        simpleItem(ModItems.BANANA_FRUIT);
 
         simpleBlockItemBlockTexture(ModBlocks.CHEADLE);
 

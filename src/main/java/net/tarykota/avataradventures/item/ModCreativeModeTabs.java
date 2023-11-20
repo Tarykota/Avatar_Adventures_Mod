@@ -30,6 +30,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.RAW_BANSHEE.get());
                         pOutput.accept(ModItems.COOKED_BANSHEE.get());
                         pOutput.accept(ModItems.GLOW_WORM.get());
+                        pOutput.accept(ModItems.BANANA_FRUIT.get());
 
                         pOutput.accept(ModBlocks.CHEADLE.get());
 

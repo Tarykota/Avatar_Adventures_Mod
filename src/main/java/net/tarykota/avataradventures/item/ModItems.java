@@ -30,6 +30,8 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoods.COOKED_BANSHEE)));
     public static final RegistryObject<Item> GLOW_WORM = ITEMS.register("glow_worm",
             () -> new Item(new Item.Properties().food(ModFoods.GLOW_WORM)));
+    public static final RegistryObject<Item> BANANA_FRUIT = ITEMS.register("banana_fruit",
+            () -> new Item(new Item.Properties().food(ModFoods.BANANA_FRUIT)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
