@@ -25,6 +25,9 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.add(ModBlocks.UNOBTAINIUM_ORE.get(),
                 block -> createOreDrops(ModBlocks.UNOBTAINIUM_ORE.get(), ModItems.UNOBTAINIUM.get()));
 
+        this.dropSelf(ModBlocks.CHEADLE.get());
+        this.add(ModBlocks.POTTED_CHEADLE.get(), createPotFlowerItemTable(ModBlocks.CHEADLE.get()));
+
     }
 
     protected LootTable.Builder createOreDrops(Block pBlock, Item item) {
