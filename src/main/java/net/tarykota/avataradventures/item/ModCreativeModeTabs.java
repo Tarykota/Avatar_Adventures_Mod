@@ -23,6 +23,10 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.UNOBTAINIUM.get());
                         pOutput.accept(ModItems.UNOBTAINIUM_INGOT.get());
                         pOutput.accept(ModItems.UNOBTAINIUM_SHEET.get());
+
+                        pOutput.accept(ModItems.EXOPACK_FACEPLATE.get());
+                        pOutput.accept(ModItems.EXOPACK_TANK.get());
+
                         pOutput.accept(ModItems.BANSHEE_SADDLE.get());
 
                         pOutput.accept(ModItems.TEYLU.get());
