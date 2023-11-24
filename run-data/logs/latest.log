@@ -1,32 +1,32 @@
-[23Nov2023 13:00:46.868] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\tomsa\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.1.44, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, avataradventures, --all, --output, C:\Users\tomsa\Desktop\Avatar Adventures Mod\src\generated\resources, --existing, C:\Users\tomsa\Desktop\Avatar Adventures Mod\src\main\resources]
-[23Nov2023 13:00:46.885] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.8 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[23Nov2023 13:00:47.375] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
-[23Nov2023 13:00:47.667] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/tomsa/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23132!/ Service=ModLauncher Env=CLIENT
-[23Nov2023 13:00:48.572] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\tomsa\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.1.44\5f9e4f02111b8556646fe30d438a395d7831489b\javafmllanguage-1.20.1-47.1.44.jar is missing mods.toml file
-[23Nov2023 13:00:48.590] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\tomsa\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.1.44\b0c75b3aaa10da1e196c661e2d26a95f2ef06f89\lowcodelanguage-1.20.1-47.1.44.jar is missing mods.toml file
-[23Nov2023 13:00:48.608] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\tomsa\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.1.44\c9b0a38bc3bb899928b360953b4a562783c54661\mclanguage-1.20.1-47.1.44.jar is missing mods.toml file
-[23Nov2023 13:00:48.622] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\tomsa\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.1.44\92f79b4cb3298ce1c261e2d14515244b3445f130\fmlcore-1.20.1-47.1.44.jar is missing mods.toml file
-[23Nov2023 13:00:48.876] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[23Nov2023 13:00:52.917] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[23Nov2023 13:00:52.922] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\tomsa\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, avataradventures, --all, --output, C:\Users\tomsa\Desktop\Avatar Adventures Mod\src\generated\resources, --existing, C:\Users\tomsa\Desktop\Avatar Adventures Mod\src\main\resources]
-[23Nov2023 13:00:53.943] [main/INFO] [mixin/]: Remapping refMap geckolib.refmap.json using C:\Users\tomsa\Desktop\Avatar Adventures Mod\build\createSrgToMcp\output.srg
-[23Nov2023 13:00:54.932] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [avataradventures]
-[23Nov2023 13:01:07.427] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.1.44, for MC 1.20.1 with MCP 20230612.114412
-[23Nov2023 13:01:07.440] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.1.44 Initialized
-[23Nov2023 13:01:07.724] [modloading-worker-0/WARN] [software.bernie.geckolib.GeckoLib/]: Minecraft.getInstance() was null, could not register reload listeners
-[23Nov2023 13:01:09.198] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/tomsa/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.44_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.1.44_mapped_parchment_2023.06.26-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[23Nov2023 13:01:09.200] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/tomsa/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.44_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.1.44_mapped_parchment_2023.06.26-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[23Nov2023 13:01:09.651] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[23Nov2023 13:01:09.762] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 110 ms
-[23Nov2023 13:01:09.763] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[23Nov2023 13:01:09.906] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 142 ms
-[23Nov2023 13:01:09.907] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: avataradventures
-[23Nov2023 13:01:10.371] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: avataradventures finished after 461 ms
-[23Nov2023 13:01:10.372] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: avataradventures
-[23Nov2023 13:01:10.419] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: avataradventures finished after 46 ms
-[23Nov2023 13:01:10.419] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id avataradventures
-[23Nov2023 13:01:10.448] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id avataradventures finished after 27 ms
-[23Nov2023 13:01:10.448] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id avataradventures
-[23Nov2023 13:01:10.450] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id avataradventures finished after 1 ms
-[23Nov2023 13:01:10.450] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 801 ms
-[23Nov2023 13:01:10.477] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 38, old count: 37, new count: 39, removed stale: 0, written: 2
+[24Nov2023 09:45:19.623] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\tomsa\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.1.44, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, avataradventures, --all, --output, C:\Users\tomsa\Desktop\Avatar Adventures Mod\src\generated\resources, --existing, C:\Users\tomsa\Desktop\Avatar Adventures Mod\src\main\resources]
+[24Nov2023 09:45:19.637] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.8 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[24Nov2023 09:45:20.151] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[24Nov2023 09:45:20.344] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/tomsa/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23132!/ Service=ModLauncher Env=CLIENT
+[24Nov2023 09:45:21.603] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\tomsa\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.1.44\5f9e4f02111b8556646fe30d438a395d7831489b\javafmllanguage-1.20.1-47.1.44.jar is missing mods.toml file
+[24Nov2023 09:45:21.624] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\tomsa\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.1.44\b0c75b3aaa10da1e196c661e2d26a95f2ef06f89\lowcodelanguage-1.20.1-47.1.44.jar is missing mods.toml file
+[24Nov2023 09:45:21.640] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\tomsa\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.1.44\c9b0a38bc3bb899928b360953b4a562783c54661\mclanguage-1.20.1-47.1.44.jar is missing mods.toml file
+[24Nov2023 09:45:21.659] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\tomsa\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.1.44\92f79b4cb3298ce1c261e2d14515244b3445f130\fmlcore-1.20.1-47.1.44.jar is missing mods.toml file
+[24Nov2023 09:45:22.000] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[24Nov2023 09:45:25.992] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[24Nov2023 09:45:25.998] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\tomsa\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, avataradventures, --all, --output, C:\Users\tomsa\Desktop\Avatar Adventures Mod\src\generated\resources, --existing, C:\Users\tomsa\Desktop\Avatar Adventures Mod\src\main\resources]
+[24Nov2023 09:45:27.120] [main/INFO] [mixin/]: Remapping refMap geckolib.refmap.json using C:\Users\tomsa\Desktop\Avatar Adventures Mod\build\createSrgToMcp\output.srg
+[24Nov2023 09:45:28.275] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [avataradventures]
+[24Nov2023 09:45:40.404] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.1.44, for MC 1.20.1 with MCP 20230612.114412
+[24Nov2023 09:45:40.418] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.1.44 Initialized
+[24Nov2023 09:45:40.850] [modloading-worker-0/WARN] [software.bernie.geckolib.GeckoLib/]: Minecraft.getInstance() was null, could not register reload listeners
+[24Nov2023 09:45:42.693] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/tomsa/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.44_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.1.44_mapped_parchment_2023.06.26-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[24Nov2023 09:45:42.695] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/tomsa/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.44_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.1.44_mapped_parchment_2023.06.26-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[24Nov2023 09:45:43.215] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[24Nov2023 09:45:43.354] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 136 ms
+[24Nov2023 09:45:43.354] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[24Nov2023 09:45:43.464] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 108 ms
+[24Nov2023 09:45:43.465] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: avataradventures
+[24Nov2023 09:45:43.778] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: avataradventures finished after 312 ms
+[24Nov2023 09:45:43.779] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: avataradventures
+[24Nov2023 09:45:43.822] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: avataradventures finished after 43 ms
+[24Nov2023 09:45:43.823] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id avataradventures
+[24Nov2023 09:45:43.850] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id avataradventures finished after 27 ms
+[24Nov2023 09:45:43.851] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id avataradventures
+[24Nov2023 09:45:43.854] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id avataradventures finished after 2 ms
+[24Nov2023 09:45:43.854] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 639 ms
+[24Nov2023 09:45:43.887] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 41, old count: 40, new count: 42, removed stale: 0, written: 2

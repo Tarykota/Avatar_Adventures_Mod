@@ -39,10 +39,19 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.UNOBTAINIUM.get()), has(ModItems.UNOBTAINIUM.get()))
                 .save(pWriter);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.UNOBTAINIUM_SHEET.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.UNOBTAINIUM_SHEET.get(), 4 )
                 .pattern("II")
                 .define('I', ModItems.UNOBTAINIUM_INGOT.get())
                 .unlockedBy(getHasName(ModItems.UNOBTAINIUM_INGOT.get()), has(ModItems.UNOBTAINIUM_INGOT.get()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.AIR_CANISTER.get())
+                .pattern(" SN")
+                .pattern("SPS")
+                .pattern("NS ")
+                .define('S', ModItems.UNOBTAINIUM_SHEET.get())
+                .define('N', Items.IRON_NUGGET)
+                .define('P', Items.GLASS_PANE)
+                .unlockedBy(getHasName(ModItems.UNOBTAINIUM_SHEET.get()), has(ModItems.UNOBTAINIUM_SHEET.get()))
                 .save(pWriter);
 
     }

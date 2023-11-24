@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": {
+      "item": "minecraft:iron_nugget"
+    },
+    "P": {
+      "item": "minecraft:glass_pane"
+    },
+    "S": {
+      "item": "avataradventures:unobtainium_sheet"
+    }
+  },
+  "pattern": [
+    " SN",
+    "SPS",
+    "NS "
+  ],
+  "result": {
+    "item": "avataradventures:air_canister"
+  },
+  "show_notification": true
+}

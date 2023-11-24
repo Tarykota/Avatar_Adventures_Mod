@@ -11,7 +11,7 @@ import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
     EXOPACK("exopack", 25, new int[]{ 5, 7 }, 9,
-            SoundEvents.ARMOR_EQUIP_IRON, 1f, 0f, () -> Ingredient.of(ModItems.UNOBTAINIUM_INGOT.get()));
+            SoundEvents.ARMOR_EQUIP_LEATHER, 1f, 0f, () -> Ingredient.of(ModItems.UNOBTAINIUM_INGOT.get()));
 
     private final String name;
     private final int durabilityMultiplier;

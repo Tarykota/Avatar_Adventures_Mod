@@ -20,10 +20,12 @@ public class ModItems {
     public static final RegistryObject<Item> UNOBTAINIUM_SHEET = ITEMS.register("unobtainium_sheet",
             () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> EXOPACK_FACEPLATE = ITEMS.register("exopack_faceplate",
+    public static final RegistryObject<Item> EXOPACK_FACEMASK = ITEMS.register("exopack_facemask",
             () -> new ExopackArmorItem(ModArmorMaterials.EXOPACK, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> EXOPACK_TANK = ITEMS.register("exopack_tank",
             () -> new ExopackArmorItem(ModArmorMaterials.EXOPACK, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> AIR_CANISTER = ITEMS.register("air_canister",
+            () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> BANSHEE_SADDLE = ITEMS.register("banshee_saddle",
             () -> new Item(new Item.Properties()));

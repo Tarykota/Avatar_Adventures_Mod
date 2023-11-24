@@ -1,10 +1,11 @@
-// 1.20.1	2023-11-23T13:01:10.4543663	Item Models: avataradventures
+// 1.20.1	2023-11-23T20:19:40.8761728	Item Models: avataradventures
+e8150a69a063ef72f071dc34ce32e4e44a1babca assets/avataradventures/models/item/air_canister.json
 f69e6060e89b02455c0daff4e7cd0578b7708573 assets/avataradventures/models/item/banana_fruit.json
 e85af19736acce8197b13c1c9f0f81895037e3bd assets/avataradventures/models/item/banshee_saddle.json
 e001f1116c55258afff6621baea0fcbbba43b15d assets/avataradventures/models/item/cheadle.json
 d5bdcd38c0f194685044e5725212d5193d44197e assets/avataradventures/models/item/cooked_banshee.json
 aa6e5a66c78a5988688da1e2cb586a59dcadd9b3 assets/avataradventures/models/item/cooked_teylu.json
-cbd00f93f2a6d88967879f5b1cc243eec2e3e78b assets/avataradventures/models/item/exopack_faceplate.json
+e472ca86872e0dd38034557bf395156306d606a6 assets/avataradventures/models/item/exopack_facemask.json
 0c6af967a73e45fb1c85ae332d9b875e09731190 assets/avataradventures/models/item/exopack_tank.json
 9a1f26be222b7b232565b8b61c39e1ef8fd3cfae assets/avataradventures/models/item/glow_worm.json
 64bf20635958cfaa9d0dc0e0140966279724ec77 assets/avataradventures/models/item/raw_banshee.json

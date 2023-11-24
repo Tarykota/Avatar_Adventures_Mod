@@ -23,8 +23,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.UNOBTAINIUM_INGOT);
         simpleItem(ModItems.UNOBTAINIUM_SHEET);
 
-        simpleItem(ModItems.EXOPACK_FACEPLATE);
+        simpleItem(ModItems.EXOPACK_FACEMASK);
         simpleItem(ModItems.EXOPACK_TANK);
+        simpleItem(ModItems.AIR_CANISTER);
 
         simpleItem(ModItems.BANSHEE_SADDLE);
 
